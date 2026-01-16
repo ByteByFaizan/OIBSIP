@@ -1,4 +1,4 @@
-# 🔐 Advanced Password Generator (Python GUI)
+# Advanced Password Generator (Python GUI)
 
 An advanced **Python-based password generator** with a modern **Tkinter GUI** that allows users to generate **secure, customizable passwords** using cryptographically safe randomness.
 
@@ -6,7 +6,7 @@ This project is designed for **students, beginners transitioning to intermediate
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This application generates strong random passwords based on **user-defined rules**, including:
 
@@ -20,7 +20,7 @@ The project follows **secure password generation principles** using Python’s `
 
 ---
 
-## 🧠 Key Concepts Used
+## Key Concepts Used
 
 - Secure random generation (`secrets` module)
 - Character set management
@@ -32,28 +32,28 @@ The project follows **secure password generation principles** using Python’s `
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ Graphical User Interface (GUI)
-- ✅ Cryptographically secure password generation
-- ✅ Adjustable password length
-- ✅ Option to include:
+- Graphical User Interface (GUI)
+- Cryptographically secure password generation
+- Adjustable password length
+- Option to include:
   - Letters (A–Z, a–z)
   - Numbers (0–9)
   - Symbols
-- ✅ Exclude specific characters
-- ✅ Automatic strength detection:
+- Exclude specific characters
+- Automatic strength detection:
   - Weak
   - Medium
   - Strong
   - Very Strong
-- ✅ One-click copy to clipboard
-- ✅ Clean and modern color theme
-- ✅ Error handling & input validation
+- One-click copy to clipboard
+- Clean and modern color theme
+- Error handling and input validation
 
 ---
 
-## 🛡️ Password Strength Logic
+## Password Strength Logic
 
 Password strength is calculated based on:
 
@@ -67,7 +67,7 @@ The strength is displayed with **color indicators** for better user feedback.
 
 ---
 
-## 🖥️ GUI Preview
+## GUI Preview
 
 - Built using **Tkinter**
 - Fixed window layout
@@ -77,11 +77,9 @@ The strength is displayed with **color indicators** for better user feedback.
 
 ---
 
-## 🧪 Technologies Used
+## Technologies Used
 
 - **Language:** Python 3
 - **GUI Library:** Tkinter
 - **Security:** `secrets` module
 - **Standard Libraries:** `string`
-
----
