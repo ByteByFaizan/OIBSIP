@@ -3,7 +3,7 @@ from tkinter import messagebox
 import string
 import secrets
 
-# ---------------- COLORS ---------------- #
+
 BLACK = "#000000"
 PRUSSIAN_BLUE = "#14213D"
 ORANGE = "#FCA311"
@@ -12,7 +12,7 @@ WHITE = "#FFFFFF"
 
 SYMBOLS = "!@#$%^&*()-_=+[]{};:,.<>?/"
 
-# ---------------- PASSWORD LOGIC ---------------- #
+
 
 def calculate_strength(password):
     score = 0
@@ -95,7 +95,7 @@ def copy_to_clipboard():
         root.clipboard_append(result.get())
         messagebox.showinfo("Copied", "Password copied to clipboard successfully.")
 
-# ---------------- GUI ---------------- #
+
 
 root = tk.Tk()
 root.title("Advanced Password Generator")
