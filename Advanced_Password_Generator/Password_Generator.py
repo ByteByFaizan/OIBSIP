@@ -103,7 +103,7 @@ root.geometry("500x540")
 root.configure(bg=PRUSSIAN_BLUE)
 root.resizable(False, False)
 
-# Title
+
 tk.Label(
     root,
     text="Advanced Password Generator",
@@ -112,11 +112,11 @@ tk.Label(
     fg=ORANGE
 ).pack(pady=18)
 
-# Card
+
 card = tk.Frame(root, bg=ALABASTER)
 card.pack(padx=25, pady=10, fill="both")
 
-# Password length
+
 tk.Label(
     card,
     text="Password Length",
@@ -129,7 +129,7 @@ length_entry = tk.Entry(card, width=12, font=("Segoe UI", 11))
 length_entry.grid(row=0, column=1)
 length_entry.insert(0, "")
 
-# Options
+
 letters_var = tk.BooleanVar(value=True)
 digits_var = tk.BooleanVar(value=True)
 symbols_var = tk.BooleanVar(value=True)
@@ -138,7 +138,7 @@ tk.Checkbutton(card, text="Include Letters (A–Z, a–z)", variable=letters_var
 tk.Checkbutton(card, text="Include Numbers (0–9)", variable=digits_var, bg=ALABASTER, font=("Segoe UI", 10)).grid(row=2, column=0, columnspan=2, sticky="w", padx=20)
 tk.Checkbutton(card, text="Include Symbols (!@#$…)", variable=symbols_var, bg=ALABASTER, font=("Segoe UI", 10)).grid(row=3, column=0, columnspan=2, sticky="w", padx=20)
 
-# Exclude
+
 tk.Label(
     card,
     text="Exclude Characters",
@@ -150,7 +150,7 @@ tk.Label(
 exclude_entry = tk.Entry(card, width=22, font=("Segoe UI", 11))
 exclude_entry.grid(row=4, column=1)
 
-# Buttons
+
 def on_hover(e):
     e.widget.config(bg=BLACK, fg=WHITE)
 
@@ -170,7 +170,7 @@ generate_btn.pack(pady=22)
 generate_btn.bind("<Enter>", on_hover)
 generate_btn.bind("<Leave>", on_leave)
 
-# Result
+
 result = tk.StringVar()
 tk.Entry(
     root,
